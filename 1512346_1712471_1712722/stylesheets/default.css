@@ -100,12 +100,108 @@ img.checkout-link-arrow {
   color: #5790dc;
 }
 .see-saying-content {
+  position: relative;
   border: solid 1px #c2c2c2;
   border-bottom: solid 3px white;
   border-right: solid 3px white;
   border-radius: 6px;
-  box-shadow: inset 3px 3px #dcdcdc;
+  box-shadow: inset 1px 1px #dcdcdc;
   background-color: #eaeaea;
   padding: 40px;
   font-size: 12px;
+}
+.see-saying-content:before {
+  position: absolute;
+  bottom: -40px;
+  z-index: 2;
+  right: 38px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 33px 0 0;
+  border-color: #eaeaea transparent transparent transparent;
+  box-shadow: inset 2px 1px black;
+}
+.stevjob-content {
+  padding-left: 83%;
+  /* margin-top: -34px; */
+  font-size: 13px;
+}
+.give-try-second {
+  justify-content: flex-start;
+  align-items: center;
+}
+.dont-wait-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dont-wait-arrow {
+  position: relative;
+  bottom: 19px;
+  left: -19px;
+}
+.row.footer {
+  margin-right: -45px;
+  margin-left: -45px;
+  background-image: url(../images/backround-foooter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 0px !important;
+}
+.footer-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.footer .col-3 {
+}
+.footer-contact-container {
+}
+.footer-map-content {
+  padding-top: 40px;
+}
+.footer-design-container {
+}
+.footer-conect-container {
+}
+.row.copy-info {
+  height: 33px;
+  align-items: center;
+  margin-right: -45px;
+  margin-left: -45px;
+  /* background-image: url(../images/backround-foooter.png); */
+  background-color: 575757;
+
+  /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 0px !important;
+  /* box-shadow:inset 0 0 10px #000000;
+     */
+}
+.copy-info-right-content {
+  display: block;
+  float: right;
+}
+.give-try-buttom {
+  border-radius: 60px;
+  background: rgb(181, 232, 255);
+  height:55px
+}
+.give-try-main-text{
+  font-weight: 700;
+  color: #37567f;
+}
+.give-try-description-text{
+  font-size: 12px;
+
 }
